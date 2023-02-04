@@ -63,8 +63,8 @@ const Home = () => {
                 </h2>
               </div>
               
-              <p classname= "high-light">
-              <div classname="INSTRUCT">
+              <p className= "high-light">
+              <div className="INSTRUCT">
                 <h1>How to get most out of this application!</h1>
               </div>
 1. Be specific with what you ask, this is a generative model, optimised for providing you with elaborated content!<br></br>
