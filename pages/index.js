@@ -50,7 +50,7 @@ const Home = () => {
                   width="120"
                   height="127"
                   frameBorder="0"
-                  class="giphy-embed"
+                  className="giphy-embed"
                   allowFullScreen
                 ></iframe>
                 <p>

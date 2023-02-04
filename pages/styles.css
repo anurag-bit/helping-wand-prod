@@ -12,7 +12,7 @@ body {
   display: flex;
   place-content: center flex-start;
   align-items: center;
-  background-color: rgb(71, 67, 67);
+  background-color: rgb(12, 12, 12);
   flex-flow: column nowrap;
   gap: 10px;
   height: 100vh;
