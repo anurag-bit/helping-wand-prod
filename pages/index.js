@@ -36,20 +36,47 @@ const Home = () => {
       <>
         <div className="root">
           <Head>
-            <title>Helping Wand🪄| anurag-bit</title>
+            <title>Fiona | anurag-bit</title>
           </Head>
           <div className="container">
             <div className="header">
               <div className="header-title">
-                <h1>Helping Wand🪄</h1>
+                <h1>Fiona</h1>
+              </div>
+              <br></br>
+              <div>
+                <iframe
+                  src="https://giphy.com/embed/cu1HaFsymELztiENZk"
+                  width="120"
+                  height="127"
+                  frameBorder="0"
+                  class="giphy-embed"
+                  allowFullScreen
+                ></iframe>
+                <p>
+                  <a href="https://giphy.com/gifs/thedrewbarrymoreshow-drew-barrymore-taking-notes-show-cu1HaFsymELztiENZk"></a>
+                </p>
               </div>
               <div className="header-subtitle">
-                <h2>Answer? i'll answer anything you wish!🗿</h2>
+                <h2>
+                  Am implementation of Generative Pre-Trained transformer #v3!🗿
+                </h2>
               </div>
+              
+              <p classname= "high-light">
+              <div classname="INSTRUCT">
+                <h1>How to get most out of this application!</h1>
+              </div>
+1. Be specific with what you ask, this is a generative model, optimised for providing you with elaborated content!<br></br>
+2. Be Patient, being accurate with the detailes you want will give you better results.<br></br>
+3.you can just drop the topic name and Fiona will actively generate your project content.<br></br>
+4.Fiona is desgined to write you essay and project content.
+
+                </p>
               <div className="prompt-container">
                 <textarea
                   className="prompt-box"
-                  placeholder="start typing here"
+                  placeholder="Cmon! start typing here"
                   value={userInput}
                   onChange={onUserChangedText}
                 />
@@ -97,7 +124,6 @@ const Home = () => {
           rel="noreferrer"
         >
           <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
             <p>built Different By Anurag</p>
           </div>
         </a>
