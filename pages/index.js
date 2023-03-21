@@ -1,11 +1,11 @@
 import Head from "next/head";
 import { useState } from "react";
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+import { getAnalytics, isSupported} from "firebase/analytics";
+import firebase from 'firebase/compat/app'
 
 
-
-
+//firebase analytics implementation 
 const firebaseConfig = {
   apiKey: "AIzaSyCQFpPz2FYJ46zvbMIg-YAnL57gGfLWTAI",
   authDomain: "fiona-7321c.firebaseapp.com",
@@ -16,8 +16,10 @@ const firebaseConfig = {
   measurementId: "G-8KLVMGFRSJ"
 };
 
+
+
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+const analytics = isSupported().then(yes => yes ? getAnalytics(app) : null);
 const Home = () => {
   const [userInput, setUserInput] = useState("");
   const [apiOutput, setApiOutput] = useState("");
