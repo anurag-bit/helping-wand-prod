@@ -12,7 +12,7 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          content="https://cdn.buildspace.so/courses/gpt3-writer/project-og.jpg"
+          content="https://mtgrocks.com/wp-content/uploads/2022/08/MTG.jpg"
         />
         <meta name="twitter:card" content="summary_large_image"></meta>
       </Head>
