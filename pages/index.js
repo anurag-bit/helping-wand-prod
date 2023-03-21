@@ -3,6 +3,7 @@ import { useState } from "react";
 import { initializeApp } from "firebase/app";
 import { getAnalytics, isSupported} from "firebase/analytics";
 import firebase from 'firebase/compat/app'
+import Script from "next/script"
 
 
 //firebase analytics implementation 
@@ -55,6 +56,22 @@ const Home = () => {
           <Head>
             <title>Fiona | anurag-bit</title>
           </Head>
+          <div className="container">
+      
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+           window.dataLayer = window.dataLayer || [];
+           function gtag(){dataLayer.push(arguments);}
+           gtag('js', new Date());
+         
+           gtag('config', 'G-8KLVMGFRSJ');
+        `}
+      </Script>
+    </div>
           <div className="container">
             <div className="header">
               <div className="header-title">
