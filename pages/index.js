@@ -7,13 +7,13 @@ import { getAnalytics } from "firebase/analytics";
 
 
 const firebaseConfig = {
-  apiKey: process.env.apiKey,
-  authDomain: process.env.authDomain,
-  projectId: process.env.projectId,
-  storageBucket: process.env.storageBucket,
-  messagingSenderId: process.env.messagingSenderId,
-  appId: process.env.appId,
-  measurementId: prpcess.env,measurementId
+  apiKey: "AIzaSyCQFpPz2FYJ46zvbMIg-YAnL57gGfLWTAI",
+  authDomain: "fiona-7321c.firebaseapp.com",
+  projectId: "fiona-7321c",
+  storageBucket: "fiona-7321c.appspot.com",
+  messagingSenderId: "915545218328",
+  appId: "1:915545218328:web:8d74b3ad9b41e1f1acd26d",
+  measurementId: "G-8KLVMGFRSJ"
 };
 
 const app = initializeApp(firebaseConfig);
