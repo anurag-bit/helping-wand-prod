@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'fiona'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B2DD42EE2733466C83C8BB65099853C9 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F68488D72B974F92B8F0045E8A9A64BF }}
           package: .
